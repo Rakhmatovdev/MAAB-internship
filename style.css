@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  Navbar  page*/
+
+
+.navbar{
+    display: flex;
+    padding:70px 80px;
+    justify-content: space-between;
+}
+.nav-logo{
+    cursor: pointer;
+}
+
+/*  Reyuzbl button */
+.sbutton{
+    font-size: 35px;
+    padding: 16px 44px;
+    background-color: #E26020;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/*  Hero page */
+
+.hero{
+    background-image: url("./photos/backgraund.png");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    padding: 116px 80px;
+
+}
+.hero-h1{
+color: white;
+font-size: 120px;
+font-weight: 700;
+line-height: 145px;
+letter-spacing: 0%;
+}
+.hero-h3{
+color:white;
+font-size: 46px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 0%;
+width: 826px;
+}
+.hero-btn{
+    padding-top: 30px;
+}
+
+/* Business page*/
+
+.business{
+display: flex;
+position: relative;
+}
+
+.business-title{
+padding: 60px 45px;
+background-color: white;
+}
+.business-title h2{
+font-size: 45px;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: 0%;
+}
+.business-title p{
+    color: rgb(73, 77, 74);
+font-size: 45px;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: 0%;
+}
+
+/* Vaucher page */
+
+.vaucher{
+background-image: url('./photos/backgraund2.png');
+background-repeat: no-repeat;
+background-attachment: local;
+padding: 100px 80px;
+}
+.vaucher h2{
+    color: white;
+font-size: 55px;
+font-weight: 500;
+line-height: 67px;
+letter-spacing: 0%;
+}
+.cards{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.card{
+    width: 287px;
+    height: 187px;
+    background-color: white;
+padding: 20px 12px;
+border-radius: 20px;
+display: inline-flex;
+align-items: center;
+}
+
+.card-bottom{
+margin-top: 100px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.card-bottom h3{
+    padding: 30px;
+    color: white;
+font-size: 64px;
+font-weight: 400;
+line-height: 77px;
+letter-spacing: 0%;
+background-color: #E26020;
+border: 2px solid white;
+border-radius: 20px ;
+}
+.card-bottom h2{
+    text-align: center;
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 145px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+.card-bottom h4{
+color: white;
+font-size: 64px;
+font-weight: 400;
+line-height: 77px;
+letter-spacing: 0%;
+text-transform: lowercase;
+}
+
+/* Login page */
+
+.login{
+    padding: 100px 80px;
+}
+
+.login .input{
+     border: 2px solid rgb(205, 205, 205);
+     border-radius: 20px;
+     padding: 28px 23px ;
+     display: block;
+     margin-top: 20px;
+}
+
+.input input{
+    border: none;
+    color: #CDCDCD;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    width: 100%;
+}
+.input-btn{
+    margin-top: 66px;
+}
